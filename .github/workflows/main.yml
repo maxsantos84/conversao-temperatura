@@ -26,7 +26,7 @@ jobs:
            file: ./src/Dockerfile
            push: true
            tags: |
-             maxsantos84/conversao-temperatura:v1
+             maxsantos84/conversao-temperatura:latest
              maxsantos84/conversao-temperatura:${{ github.run_number }}
             
   CD:
