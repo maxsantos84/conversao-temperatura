@@ -23,7 +23,7 @@ jobs:
          uses: docker/build-push-action@v2.8.0
          with:
            context: .
-           file: .Dockerfile
+           file: Dockerfile
            push: true
            tags: |
              maxsantos84/conversao-temperatura:latest
